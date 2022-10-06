@@ -25,6 +25,8 @@ dependencies:
 
 ### 📷 **Demo**
 
+![Screen Shot 2022-10-07 at 00 24 35](https://user-images.githubusercontent.com/68719199/194380831-1f7e666a-39bd-406a-a919-602b2b5d2868.png)
+![Screen Shot 2022-10-07 at 00 24 38](https://user-images.githubusercontent.com/68719199/194380840-0942ed55-34cb-472c-8d2b-680987b9979f.png)
 
 
 
