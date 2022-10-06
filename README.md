@@ -1,6 +1,6 @@
 ### 📦 **Card UIKit**
 
-Card UIKi Ready To Use 🚀, 
+Card UIKi Ready To Use  
 Made With Flutter
 
 ### 🎁 **Fiture**
