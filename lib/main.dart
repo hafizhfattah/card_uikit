@@ -16,13 +16,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.light(useMaterial3: true),
-      home: const Card1(),
+      debugShowCheckedModeBanner: false,
+      home: const Card(),
     );
   }
 }
 
-class Card1 extends StatelessWidget {
-  const Card1({Key? key}) : super(key: key);
+class Card extends StatelessWidget {
+  const Card({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +51,7 @@ class Card1 extends StatelessWidget {
     );
 
     return Scaffold(
-      backgroundColor: grey,
+      backgroundColor: Colors.blueGrey,
       body: SingleChildScrollView(
         child: Center(
           child: Column(
@@ -63,7 +64,7 @@ class Card1 extends StatelessWidget {
               //Card1
               FittedBox(
                 child: Container(
-                  width: MediaQuery.of(context).size.width / 2,
+                  width: MediaQuery.of(context).size.width / 1.5,
                   padding: const EdgeInsets.fromLTRB(16, 12, 16, 16),
                   decoration: const BoxDecoration(
                     boxShadow: [
@@ -194,7 +195,7 @@ class Card1 extends StatelessWidget {
               //Card2
               FittedBox(
                 child: Container(
-                  width: MediaQuery.of(context).size.width / 2,
+                  width: MediaQuery.of(context).size.width / 1.5,
                   padding: const EdgeInsets.all(16),
                   decoration: const BoxDecoration(
                     color: purple,
@@ -277,7 +278,7 @@ class Card1 extends StatelessWidget {
               //Card3
               FittedBox(
                 child: Container(
-                  width: MediaQuery.of(context).size.width / 2,
+                  width: MediaQuery.of(context).size.width / 1.5,
                   padding: const EdgeInsets.all(14),
                   decoration: BoxDecoration(
                     color: white,
@@ -343,7 +344,7 @@ class Card1 extends StatelessWidget {
                   child: BackdropFilter(
                     filter: ImageFilter.blur(sigmaX: 3, sigmaY: 3),
                     child: Container(
-                      width: MediaQuery.of(context).size.width / 2,
+                      width: MediaQuery.of(context).size.width / 1.5,
                       padding: const EdgeInsets.all(16),
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
@@ -419,7 +420,7 @@ class Card1 extends StatelessWidget {
                   child: BackdropFilter(
                     filter: ImageFilter.blur(sigmaX: 3, sigmaY: 3),
                     child: Container(
-                      width: MediaQuery.of(context).size.width / 2,
+                      width: MediaQuery.of(context).size.width / 1.5,
                       padding: const EdgeInsets.all(16),
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
@@ -608,7 +609,7 @@ class Card1 extends StatelessWidget {
               //Card6
               FittedBox(
                 child: Container(
-                  width: MediaQuery.of(context).size.width / 2,
+                  width: MediaQuery.of(context).size.width / 1.5,
                   decoration: const BoxDecoration(
                     color: white,
                     borderRadius: BorderRadius.all(
@@ -620,7 +621,7 @@ class Card1 extends StatelessWidget {
                   child: Column(
                     children: [
                       Container(
-                        height: 200.0,
+                        height: 250.0,
                         decoration: const BoxDecoration(
                           image: DecorationImage(
                             image: NetworkImage(
@@ -636,7 +637,7 @@ class Card1 extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(
-                        height: 16.0,
+                        height: 10.0,
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(
@@ -672,7 +673,7 @@ class Card1 extends StatelessWidget {
                               ],
                             ),
                             const SizedBox(
-                              height: 12.0,
+                              height: 8.0,
                             ),
                             Text(
                               "Twitter Holiday",
@@ -795,6 +796,55 @@ class Card1 extends StatelessWidget {
                       ),
                     ],
                   ),
+                ),
+              ),
+              const SizedBox(
+                height: 20.0,
+              ),
+
+              //Card7
+              Container(
+                height: 200,
+                width: MediaQuery.of(context).size.width / 1.5,
+                padding: const EdgeInsets.all(18),
+                decoration: const BoxDecoration(
+                  image: DecorationImage(
+                    image: NetworkImage(
+                      "https://images.unsplash.com/photo-1606318621597-c057f7d4926e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fG1vdW50YWlufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+                    ),
+                    fit: BoxFit.cover,
+                  ),
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(
+                      32.0,
+                    ),
+                  ),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Best view from mountain\nHere we can see A\nBeautiful view",
+                      style: GoogleFonts.montserrat(
+                        color: white,
+                        fontSize: 14,
+                        letterSpacing: 1,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 10.0,
+                    ),
+                    Text(
+                      "7 October 2022",
+                      style: GoogleFonts.montserrat(
+                        color: white,
+                        fontSize: 12,
+                        letterSpacing: 1,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ],
                 ),
               ),
 
