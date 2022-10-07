@@ -24,8 +24,10 @@ dependencies:
 
 ### 📷 **Demo**
 
-![Screen Shot 2022-10-07 at 09 44 21](https://user-images.githubusercontent.com/68719199/194457207-87a2f5fe-e7cf-4405-9857-fb1660b481eb.png)
-![Screen Shot 2022-10-07 at 09 44 24](https://user-images.githubusercontent.com/68719199/194457214-fa55c3b4-000e-4b44-b576-4a97d1065305.png)
+
+![Screen Shot 2022-10-07 at 11 51 44](https://user-images.githubusercontent.com/68719199/194470461-05dd6d86-c8ff-4b99-8777-3ca51a31b731.png)
+![Screen Shot 2022-10-07 at 11 52 06](https://user-images.githubusercontent.com/68719199/194470471-78e1600d-0667-4cf6-9c1f-a88bc8f5479e.png)
+![Screen Shot 2022-10-07 at 11 52 02](https://user-images.githubusercontent.com/68719199/194470475-30cf7fce-4979-43a0-8785-827758440409.png)
 
 
 
