@@ -1,6 +1,6 @@
 ### 📦 **Card UIKit**
 
-Ready Card Widget for Use
+Ready Card Widget for Use.
 
 ### 🎁 **Fiture**
 - UIKit
